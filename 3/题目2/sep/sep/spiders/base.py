@@ -1,8 +1,8 @@
 import scrapy
 
 # 输入自己的账户密码
-USER_NAME="example@example.com"
-PASS_WORD="password"
+USER_NAME=""
+PASS_WORD=""
 
 class BaseSpider(scrapy.Spider):
     name = 'base'
